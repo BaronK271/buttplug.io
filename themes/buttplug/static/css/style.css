@@ -505,3 +505,10 @@ csmall2 {
 #indexbloglist {
     font-size: 18px;
 }
+
+#patreon > a,
+#patreon > a:hover,
+#patreon > a:visited {
+    color: #F96854;
+}
+
