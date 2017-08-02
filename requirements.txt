@@ -1,0 +1,3 @@
+markdown
+pelican
+git+https://github.com/qdot/mdx-video.git
