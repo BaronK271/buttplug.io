@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block precontent %}
+	<!-- *****************************************************************************************************************
+	 BLUE WRAP
+	 ***************************************************************************************************************** -->
+	<div id="blue">
+	    <div class="container">
+			<div class="row">
+				<h3>Buttplug Developer Blog</h3>
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /blue -->
+{% endblock %}
+{% block content %}
+	<div class="container mb">
+	 	<div class="row">
+      {% block blog_content %}
+      {% endblock %}
+      <! -- SIDEBAR -->
+	 		<div class="col-lg-4">
+		 	  <h4>Search</h4>
+		 	  <div class="hline"></div>
+		 	  <p>
+		 		  <br/>
+		 		  <input type="text" class="form-control" placeholder="Search something">
+		 		</p>
+
+		 		<div class="spacing"></div>
+
+		 		<h4>Categories</h4>
+		 		<div class="hline"></div>
+        {% for category, articles in categories %}
+        	<p><a href="#"><i class="fa fa-angle-right"></i> {{ category }}</a> <span class="badge badge-theme pull-right"> {{ articles|count }}</span></p>
+        {% endfor %}
+		 		<div class="spacing"></div>
+
+		 		<h4>Tags</h4>
+		 		<div class="hline"></div>
+		 		<p>
+          {% for tag, articles in tags %}
+            <a class="btn btn-theme" href="#" role="button">{{tag}}</a>
+          {% endfor %}
+		 		</p>
+	 		</div>
+	 	</div><! --/row -->
+	</div><! --/container -->
+{% endblock %}
