@@ -75,21 +75,6 @@
 <div class="container mtb">
   <div class="col-md-1"></div>
   <div class="col-md-10">
-    <h2 class="centered">Latest Blog Posts</h2>
-    {% if articles %}
-    <ul class="center-block" id="indexbloglist">
-      {% for article in (articles_page.object_list if articles_page else articles) %}
-      <li><a href="{{ SITEURL }}/{{ article.url }}"><time datetime="{{ article.date.isoformat() }}"> {{ article.date.date() }}</time> - {{ article.title }}</a></li>
-      {% endfor %}
-    </ul>
-    {% endif %}
-  </div>
-  <div class="col-md-1"></div>
-</div>
-<div class="hline"></div>
-<div class="container mtb">
-  <div class="col-md-1"></div>
-  <div class="col-md-10">
     <h2 class="centered">Latest Github Activity</h2>
     <iframe src="github.html" id="github-feed" scrolling="no" ></iframe>
   </div>

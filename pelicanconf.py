@@ -15,43 +15,43 @@ DEFAULT_LANG = 'en'
 THEME = "themes/buttplug"
 
 # Feed generation is usually not desired when developing
-FEED_ATOM = ('atom.xml')
-FEED_RSS = ('index.xml')
-CATEGORY_FEED_ATOM = None
-FEED_ALL_ATOM = None
-FEED_DOMAIN = SITEURL
-TRANSLATION_FEED = None
-FEED_MAX_ITEMS = 10
+# FEED_ATOM = ('atom.xml')
+# FEED_RSS = ('index.xml')
+# CATEGORY_FEED_ATOM = None
+# FEED_ALL_ATOM = None
+# FEED_DOMAIN = SITEURL
+# TRANSLATION_FEED = None
+# FEED_MAX_ITEMS = 10
 
 # Relative to content dir
 PAGE_PATHS = ['hardware/', 'pages/']
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 ARTICLE_PATHS = ['posts']
-ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
-ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
-CATEGORY_SAVE_AS = 'blog/category/{slug}/index.html'
-CATEGORY_URL = 'blog/category/{slug}/index.html'
-TAG_URL = 'blog/tag/{slug}/index.html'
-TAG_SAVE_AS = 'blog/tag/{slug}/index.html'
-AUTHOR_SAVE_AS = False
-INDEX_SAVE_AS = 'blog/index.html'
-DIRECT_TEMPLATES = ['index', 'tags', 'archives']
+# ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+# ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+# CATEGORY_SAVE_AS = 'blog/category/{slug}/index.html'
+# CATEGORY_URL = 'blog/category/{slug}/index.html'
+# TAG_URL = 'blog/tag/{slug}/index.html'
+# TAG_SAVE_AS = 'blog/tag/{slug}/index.html'
+# AUTHOR_SAVE_AS = False
+# INDEX_SAVE_AS = 'blog/index.html'
+DIRECT_TEMPLATES = ['index']
 
-DAY_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/index.html'
-MONTH_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/index.html'
-YEAR_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/index.html'
+# DAY_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/index.html'
+# MONTH_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/index.html'
+# YEAR_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/index.html'
 
-DEFAULT_PAGINATION = 10
+# DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-PLUGIN_PATHS = ['plugins']
-PLUGINS = ['summary', 'neighbors', ]
+# PLUGIN_PATHS = ['plugins']
+# PLUGINS = ['summary', 'neighbors', ]
 
-SUMMARY_END_MARKER = "<!--more-->"
-SUMMARY_MAX_LENGTH = None
+# SUMMARY_END_MARKER = "<!--more-->"
+# SUMMARY_MAX_LENGTH = None
 
 STATIC_PATHS = ['extras/htaccess',
                 'extras/robots.txt',
@@ -81,7 +81,7 @@ DISPLAY_PAGES_ON_MENU = False
 DISPLAY_ARCHIVES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_BREADCRUMBS = False
-DISPLAY_ARTICLE_INFO_ON_INDEX = True
+DISPLAY_ARTICLE_INFO_ON_INDEX = False
 SHOW_ARTICLE_CATEGORY = False
 
 PIWIK_URL = "apps.nonpolynomial.com/piwik"
