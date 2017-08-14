@@ -512,3 +512,16 @@ csmall2 {
     color: #F96854;
 }
 
+.hardware-content table {
+    border: 1px solid #888;
+}
+
+.hardware-content td {
+    border: 1px solid #888;
+    padding: 3px;
+}
+
+.hardware-content th {
+    border: 1px solid #888;
+    padding: 3px;
+}

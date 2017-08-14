@@ -27,13 +27,15 @@
 	</div><!-- /blue -->
 {% endblock %}
 {% block content %}
-  <div class="container mt">
-	 	<div class="row">
-		 	<div class="col-lg-10 col-lg-offset-1 centered">
-        <img src="/{{page.og_image}}" alt="{{page.title}}">
+  {% if page.og_image %}
+    <div class="container mt">
+	 	  <div class="row">
+		 	  <div class="col-lg-10 col-lg-offset-1 centered">
+          <img src="/{{page.og_image}}" alt="{{page.title}}">
+        </div>
       </div>
     </div>
-  </div>
+  {% endif %}
 	<div class="col-lg-10 col-lg-offset-1">
 		<div class="spacing"></div>
     <div class="hardware-content">
