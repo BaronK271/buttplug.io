@@ -19,10 +19,18 @@ Buttplug-supported hardware.
 | Lovense           | Lush                    |
 | Lovense           | Max                     |
 | Lovense           | Nora                    |
+| Lovense           | Domi                    |
 | Magic Motion      | Flamingo                |
 | Magic Motion      | Kegel Balls             |
 | Magic Motion      | Smart Mini Vibe Plus    |
 | Misc              | XBox Compatible Gamepad |
+| WeVibe            | WeVibe Sync             |
+| WeVibe            | WeVibe 4 Plus           |
+| WeVibe            | WeVibe Classic          |
+| WeVibe            | WeVibe Verge            |
+| WeVibe            | WeVibe Pivot            |
+| WeVibe            | WeVibe Ditto            |
+| OhMiBod/Kiiroo    | Fuse                    |
 | Vorze             | A10 Cyclone             |
 | Vibratissimo      | SingleBall              |
 | Vibratissimo      | DuoBall                 |
@@ -40,6 +48,7 @@ Buttplug-supported hardware.
 | Vibratissimo      | ZickZack                |
 | Vibratissimo      | Mini                    |
 | Vibratissimo      | A-Men                   |
+| Erostek           | ET-312B                 |
 
 ### Hardware that the Buttplug Server plans to supported
 
@@ -57,15 +66,8 @@ Buttplug-supported hardware.
 | Highjoy           | Highjoy Rabbit          |
 | Vibese            | Esthesia                |
 | Vibese            | Vibese                  |
-| WeVibe            | WeVibe Sync             |
-| WeVibe            | WeVibe 4 Plus           |
-| WeVibe            | WeVibe Classic          |
-| WeVibe            | WeVibe Verge            |
-| WeVibe            | WeVibe Pivot            |
-| WeVibe            | WeVibe Ditto            |
 | OhMiBod           | blueMotion NEX\|1       |
 | OhMiBod           | blueMotion NEX\|2       |
-| OhMiBod/Kiiroo    | Fuse                    |
 | SayberX           | SayberX                 |
 | SayberX           | XRing                   |
 | Cyberskin         | Twerking Butt Deluxe    |
