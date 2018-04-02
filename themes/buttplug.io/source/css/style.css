@@ -29,14 +29,14 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: 75% 75%;
+    font-family: 'AllerLight';
+}
+
+h1, h2, h3, h4, h5, h6 {
     font-family: 'AllerRegular';
 }
 
-.container-custom {
-    min-height: 100vh;
-}
-
-.opener {
+.pitch {
     width: 100%;
     margin: auto;
     font-family: "AllerLight";
@@ -71,7 +71,7 @@ body {
         shape-rendering: "geometricPrecision";
     }
 
-    .opener {
+    .pitch {
         font-size: 20pt;
     }
 
@@ -96,7 +96,7 @@ body {
         shape-rendering: "geometricPrecision";
     }
 
-    .opener {
+    .pitch {
         font-size: 16pt;
     }
 
@@ -211,17 +211,17 @@ body {
 }
 .social-footer li:nth-child(5) a {
     position: relative;
-    top: -0.2em;
+    top: -0.25em;
     color: #ffffff;
     background-color: #007bff;
     border-radius: 0.2em;
-    font-size: 0.57em;
+    font-size: 0.64em;
     padding: 0.1em 0.25em 0.1em 0.24em;
 }
 .social-footer li:nth-child(5) a:hover {
     background-color: #0056b3;
 }
 
-.main-row {
+main {
     margin-bottom: 10px;
 }
