@@ -33,7 +33,6 @@ body {
 }
 
 .container-custom {
-    max-width: 900px;
     min-height: 100vh;
 }
 
@@ -113,12 +112,16 @@ body {
         border-radius: 0;
         height: 150px;
         width: 100%;
+        background-size: cover;
+        max-height: 150px;
     }
 
     .code-img {
         border-radius: 0;
         height: 150px;
         width: 100%;
+        background-size: cover;
+        max-height: 150px;
     }
 }
 
@@ -137,8 +140,8 @@ body {
 }
 
 .site-footer {
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .site-footer, .page-wrap:after {
@@ -170,14 +173,29 @@ body {
 
 .toy-img {
     background-image: url("/static/images/header.jpg");
-    background-size: auto 100%;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     padding: 0px 5px;
+}
+
+.toy-img img {
+    vertical-align: top;
+    width: 100%; /* max width */
+    opacity: 0;  /* make it transparent */
+    max-height:150px;
+}
+
+.code-img img {
+    vertical-align: top;
+    width: 100%; /* max width */
+    opacity: 0;  /* make it transparent */
+    max-height:150px;
 }
 
 .code-img {
     background-image: url("/static/images/code.png");
-    background-size: 400px;
+    background-size: cover;
     background-position: center;
     padding: 0px 5px;
 }
@@ -197,7 +215,7 @@ body {
     color: #ffffff;
     background-color: #007bff;
     border-radius: 0.2em;
-    font-size: 0.65em;
+    font-size: 0.57em;
     padding: 0.1em 0.25em 0.1em 0.24em;
 }
 .social-footer li:nth-child(5) a:hover {
