@@ -239,3 +239,31 @@ main {
 .doc-list a {
     font-family: 'AllerRegular';
 }
+
+.language-library {
+    border-radius: 5px;
+    padding: 3px;
+    height: auto;
+    margin: 5px;
+}
+
+.language-library img {
+    width: 100%;
+    max-width: 300;
+    height: auto;
+    text-align: center;
+}
+
+.language-library-title {
+    font-family: 'AllerBold';
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.language-library-info strong {
+    font-family: 'AllerRegular';
+}
+
+.language-library-info {
+    padding: 10px 0px;
+}
