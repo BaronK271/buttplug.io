@@ -1061,7 +1061,7 @@ hexo-fs@^0.2.0:
     escape-string-regexp "^1.0.5"
     graceful-fs "^4.1.4"
 
-hexo-generator-archive@^0.1.4:
+hexo-generator-archive@^0.1.5:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/hexo-generator-archive/-/hexo-generator-archive-0.1.5.tgz#a979214cdddee2693e0551809c294bedadbb69b3"
   dependencies:
@@ -1101,14 +1101,14 @@ hexo-pagination@0.0.2:
   dependencies:
     utils-merge "^1.0.0"
 
-hexo-renderer-ejs@^0.3.0:
+hexo-renderer-ejs@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/hexo-renderer-ejs/-/hexo-renderer-ejs-0.3.1.tgz#c0c1a3757532d47e5b7d9dc908b5dfd98c94be2c"
   dependencies:
     ejs "^2.3.4"
     object-assign "^4.0.1"
 
-hexo-renderer-marked@^0.3.0:
+hexo-renderer-marked@^0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-0.3.2.tgz#d6a37af9ff195e30f9ef6ede1a06ea1fe4322966"
   dependencies:
@@ -1117,16 +1117,16 @@ hexo-renderer-marked@^0.3.0:
     object-assign "^4.1.1"
     strip-indent "^2.0.0"
 
-hexo-renderer-stylus@^0.3.1:
+hexo-renderer-stylus@^0.3.3:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/hexo-renderer-stylus/-/hexo-renderer-stylus-0.3.3.tgz#c54ea27e1fd8e3c8a9a7a84cfba8ad354122ca7f"
   dependencies:
     nib "^1.1.2"
     stylus "^0.54.5"
 
-hexo-server@^0.2.0:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/hexo-server/-/hexo-server-0.2.2.tgz#592686b554b8bfe09a19bc86c0f003ac3e8c19b9"
+hexo-server@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/hexo-server/-/hexo-server-0.3.1.tgz#86956fe7ff6bb9407f99a113666c3f1278a47979"
   dependencies:
     bluebird "^3.0.6"
     chalk "^1.1.1"
@@ -1149,7 +1149,7 @@ hexo-util@^0.6.0, hexo-util@^0.6.2, hexo-util@^0.6.3:
     html-entities "^1.2.0"
     striptags "^2.1.1"
 
-hexo@^3.2.0:
+hexo@^3.7.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/hexo/-/hexo-3.7.0.tgz#5a2092bcf45518eb65952faa00eccea2135939b7"
   dependencies:
