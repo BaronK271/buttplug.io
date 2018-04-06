@@ -1,0 +1,51 @@
+[
+  {
+    "type": "video",
+    "title": "Syncydink",
+    "image": "syncydink.svg",
+    "platforms": ["Web"],
+    "website": { "Syncydink on buttplug.world": "https://buttplug.world/syncydink"},
+    "repo": { "Github": "https://github.com/metafetish/syncydink"},
+    "issues": { "Github": "https://github.com/metafetish/syncydink/issues"},
+    "description": "Open source, web-based movie player with toy/hardware sync capabilities."
+  },
+  {
+    "type": "video",
+    "title": "ScriptPlayer",
+    "image": "scriptplayer.png",
+    "platforms": ["Windows"],
+    "repo": { "Github": "https://github.com/FredTungsten/ScriptPlayer"},
+    "issues": { "Github": "https://github.com/FredTungsten/ScriptPlayer/issues"},
+    "documentation": { "User Documentation": "https://github.com/FredTungsten/ScriptPlayer/wiki" },
+    "description": "Open source movie player for the Windows platform, with toy/hardware sync capabilities."
+  },
+  {
+    "type": "video",
+    "title": "LaunchControl",
+    "image": "launchcontrol.png",
+    "platforms": ["Windows", "Mac", "Linux"],
+    "repo": { "Github": "https://github.com/funjack/launchcontrol"},
+    "issues": { "Github": "https://github.com/funjack/launchcontrol/issues"},
+    "documentation": { "User Documentation": "https://github.com/funjack/launchcontrol/blob/master/README.md" },
+    "description": "Plugins for Kodi and VLC for syncing movies with hardware."
+  },
+  {
+    "type": "games",
+    "title": "Caveman BIOS Teaches Erotic Typing",
+    "image": "cavemanbios.png",
+    "platforms": ["Windows"],
+    "website": { "itch.io": "https://curiousjp.itch.io/caveman-bios-teaches-erotic-typing"},
+    "description": "Typing instruction game with Buttplug control features."
+  },
+  {
+    "type": "utility",
+    "title": "Buttplug App Suite",
+    "image": "buttplug.svg",
+    "platforms": ["Windows"],
+    "website": { "buttplug.io": "https://buttplug.io"},
+    "repo": { "Github": "https://github.com/metafetish/buttplug-csharp"},
+    "issues": { "Github": "https://github.com/metafetish/buttplug-csharp/issues"},
+    "documentation": { "Buttplug tutorial": "https://buttplug.world/tutorial" },
+    "description": "Set of Windows applications, including the Buttplug Websocket Server (for using Buttplug applications on Windows), Game Vibration Router, and more."
+  }
+]
