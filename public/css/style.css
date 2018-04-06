@@ -250,8 +250,9 @@ main {
 .language-library img {
     width: 100%;
     max-width: 300;
-    height: auto;
+    max-height: 300;
     text-align: center;
+    padding: 15px;
 }
 
 .language-library-title {
