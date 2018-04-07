@@ -205,23 +205,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'AllerLight';
 }
 
-.social-footer li:nth-child(2) {
-    position: relative;
-    top: 0.06em;
-}
-.social-footer li:nth-child(5) a {
-    position: relative;
-    top: -0.25em;
-    color: #ffffff;
-    background-color: #007bff;
-    border-radius: 0.2em;
-    font-size: 0.64em;
-    padding: 0.1em 0.25em 0.1em 0.24em;
-}
-.social-footer li:nth-child(5) a:hover {
-    background-color: #0056b3;
-}
-
 main {
     margin-bottom: 10px;
 }
