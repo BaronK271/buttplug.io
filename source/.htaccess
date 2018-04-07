@@ -1,0 +1,5 @@
+Options -Indexes
+AddCharset UTF-8 .html
+RewriteEngine on
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

@@ -75,3 +75,7 @@ theme: buttplug.io
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# Make sure htaccess file is copied
+include:
+  - .htaccess
