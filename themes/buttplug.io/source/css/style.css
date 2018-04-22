@@ -143,6 +143,22 @@ h1, h2, h3, h4, h5, h6 {
     max-height:150px;
 }
 
+.bp-img {
+    border-radius: 0px;
+    background-image: url("/images/squidplug.png");
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px 5px;
+}
+
+.bp-img img {
+    vertical-align: top;
+    width: 100%; /* max width */
+    opacity: 0;  /* make it transparent */
+    max-height:150px;
+}
+
 .info-text {
     margin: 5px 0px;
     font-family: 'AllerLight';
@@ -265,3 +281,4 @@ main {
         text-align: left;
     }
 }
+1
