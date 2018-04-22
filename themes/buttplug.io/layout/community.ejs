@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-10 col-md-12">
+      <% for (let type of Object.keys(site.data.Community)) { %>
+        <h2><%= type %></h2>
+        <p><%= site.data.Community[type].description %></p>
+        <% for (let app of site.data.Community[type].components) { %>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="component row">
+                <div class="col-md-4 community">
+                  <% if (app.image) { %>
+                    <a href="<%= app.url %>"><img src="/images/community/<%= app.image  %>"></a>
+                  <% } else if (app.font) { %>
+                  <a href=""><i class="<%= app.font  %>"></i></a>
+                  <% } %>
+                </div>
+                <div class="component-info col-md-8">
+                  <div class="component-title">
+                    <%= app.title %><br>
+                  </div><br>
+                  <p><strong>Website:</strong> <a href="<%= app.url %>"><%= app.url %></a></p>
+                  <% if (app.description) { %>
+                    <p><%- app.description %></p>
+                    <br>
+                  <% } %>
+                </div>
+              </div>
+            </div>
+          </div>
+        <% } %>
+      <% } %>
+    </div>
+    <div class="col-lg-1"></div>
+  </div>
+</div>

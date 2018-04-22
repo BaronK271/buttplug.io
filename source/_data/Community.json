@@ -1,0 +1,65 @@
+{
+  "Contributing": {
+    "description": "Buttplug is a software project at its core, but that doesn’t mean you necessarily need to be a developer to contribute! Here are some ways to contribute to the project, via code or other means.",
+    "components": [
+      {
+        "title": "Github",
+        "image": "github.svg",
+        "url": "https://github.com/metafetish/buttplug",
+        "description": "Github is where all of the code for open source Buttplug projects are stored. Our main repo (listed above) contains info on how to get started contributing code to Buttplug, as well as a list of related projects to help out with."
+      },
+      {
+        "title": "Zenhub",
+        "image": "zenhub.svg",
+        "url": "https://zenhub.com",
+        "description": "Zenhub is a plugin we use for Github to keep track of all of our issues. If you visit any of the Buttplug github repos with the Zenhub plugin installed, you'll see a 'Zenhub' option on the website. You can use that to see our issue priorities and what we're working on at the moment."
+      },
+      {
+        "title": "Trello",
+        "image": "trello.svg",
+        "url": "https://github.com/metafetish/buttplug",
+        "description": "Trello is used for project tracking, including larger project views, hardware reverse engineering efforts, and other things related to Buttplug that aren't specifically source code."
+      },
+      {
+        "title": "Patreon",
+        "image": "patreon.svg",
+        "url": "https://patreon.com/qdot",
+        "description": "Patreon is where most of our funding comes from. We rely on donations from users to fund research, such as buying new hardware, licenses for development software and services, and other things we need to keep the project running."
+      }
+    ]
+  },
+  "Conversing": {
+    "description": "Curious about where you can talk to other developers or users of Buttplug?",
+    "components": [
+      {
+        "title": "Discord",
+        "image": "discord.svg",
+        "url": "https://discord.gg/t9g9RuD",
+        "description": "Discord is used for the main Buttplug chat server. There are channels for buttplug development, video game development, movie scripting, and more."
+      },
+      {
+        "title": "Metafetish Discourse Forums",
+        "image": "discourse.svg",
+        "url": "https://metafetish.club",
+        "description": "Our message forums are a great place to get updates on software and ask questions about the project."
+      }
+    ]
+  },
+  "Culture": {
+    "description": "If you want to keep up to date on the latest developments of Buttplug or Sex Tech in general, these are the places to watch.",
+    "components": [
+      {
+        "title": "Metafetish",
+        "image": "metafetish.svg",
+        "url": "https://metafetish.com",
+        "description": "Metafetish is one of the longest running blogs on sex and technology. Founded in 2004, it follows news and development of sex tech and the culture surrounding it."
+      },
+      {
+        "title": "Buttplug Twitter",
+        "font": "fab fa-twitter",
+        "url": "https://twitter.com/buttplugio",
+        "description": "Our project twitter account announces releases, teases new features, and also shitposts, because what else do you do on twitter."
+      }
+    ]
+  }
+}
