@@ -22,7 +22,7 @@ layout: slim-index
 
 ## Library Documentation
 
-Documentation for language and platform specific libraries will usually be bundled with those libraries, or available via their project repo or website. For more information, see the [libraries page](libraries/).
+Documentation for language and platform specific libraries will usually be bundled with those libraries, or available via their project repo or website. For more information, see the [libraries page](/libraries).
 
 ## Project Policies
 

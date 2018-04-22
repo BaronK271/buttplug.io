@@ -47,9 +47,9 @@
     "type": "web",
     "title": "Vue Material Buttplug Component",
     "image": "vue.svg",
-    "repo": { "Github": "https://github.com/metafetish/vue-material-buttplug-component"},
-    "issues": { "Github": "https://github.com/metafetish/vue-material-buttplug-component/issues"},
-    "packages": { "npm": "https://www.npmjs.org/package/vue-material-buttplug-component"},
+    "repo": { "Github": "https://github.com/metafetish/vue-buttplug-material-component"},
+    "issues": { "Github": "https://github.com/metafetish/vue-buttplug-material-component/issues"},
+    "packages": { "npm": "https://www.npmjs.org/package/vue-buttplug-material-component"},
     "maintainers": "Buttplug Core Dev Team",
     "description": "Vue.js sidepanel UI for integrating Buttplug with Vue applications. Uses the <a href='https://vuematerial.io'>vue-material</a> library for UI theming."
   },
