@@ -172,14 +172,14 @@ main {
     font-family: 'AllerRegular';
 }
 
-.language-library {
+.component {
     border-radius: 5px;
     padding: 3px;
     height: auto;
     margin: 5px;
 }
 
-.language-library img {
+.component img {
     width: 100%;
     max-width: 300;
     max-height: 300;
@@ -187,17 +187,33 @@ main {
     padding: 15px;
 }
 
-.language-library-title {
+.community {
+    text-align: center;
+}
+
+.community img {
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.community svg {
+    text-align: center;
+    padding: 0px 0px;
+    font-size: 200px;
+}
+
+.component-title {
     font-family: 'AllerBold';
     text-align: center;
     font-size: 1.4em;
 }
 
-.language-library-info strong {
+.component-info strong {
     font-family: 'AllerRegular';
 }
 
-.language-library-info {
+.component-info {
     padding: 10px 0px;
 }
 
