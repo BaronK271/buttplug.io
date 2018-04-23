@@ -2,52 +2,50 @@
   <div class="row">
     <div class="col-lg-1"></div>
     <div class="col-lg-10 col-md-12">
-      <% for (let type of Object.keys(site.data.LibraryTypes)) { %>
-        <h2><%= site.data.LibraryTypes[type] %></h2>
-        <% for (let lib of site.data.Libraries) { %>
-          <% if (lib.type === type) { %>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="component row">
-                  <div class="col-md-4">
-                    <img src="/images/libraries/<%= lib.image  %>">
-                  </div>
-                  <div class="component-info col-md-8">
-                    <div class="component-title">
-                      <%= lib.title %><br>
-                    </div><br>
-                    <% if (lib.description) { %>
-                      <%- lib.description %><br>
-                      <br>
-                    <% } %>
-                    <% if (lib.repo) { %>
-                      <strong>Repo:</strong> <a href="<%= Object.values(lib.repo)[0] %>"><%= Object.keys(lib.repo)[0] %></a><br>
-                    <% } %>
-                    <% if (lib.issues) { %>
-                      <strong>Issues:</strong> <a href="<%= Object.values(lib.issues)[0] %>"><%= Object.keys(lib.issues)[0] %></a><br>
-                    <% } %>
-                    <% if (lib.releases) { %>
-                      <strong>Releases:</strong> <a href="<%= Object.values(lib.releases)[0] %>"><%= Object.keys(lib.releases)[0] %></a><br>
-                    <% } %>
-                    <% if (lib.packages) { %>
-                      <strong>Packages:</strong> <a href="<%= Object.values(lib.packages)[0] %>"><%= Object.keys(lib.packages)[0] %></a><br>
-                    <% } %>
-                    <% if (lib.maintainers) { %>
-                      <strong>Maintainers:</strong> <%= lib.maintainers %></a><br>
-                    <% } %>
-                    <% if (lib.documentation) { %>
-                      <strong>Documentation:</strong>
-                      <ul>
-                        <% for (let doc of Object.keys(lib.documentation)) { %>
-                          <li><a href="<%= lib.documentation[doc] %>"><%= doc %></a></li>
-                        <% } %>
-                      </ul>
-                    <% } %>
-                  </div>
+      <% for (let type of Object.keys(site.data.Libraries)) { %>
+        <h2><%= type %></h2>
+        <% for (let lib of site.data.Libraries[type]) { %>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="component row">
+                <div class="col-md-4">
+                  <img src="/images/libraries/<%= lib.image  %>">
+                </div>
+                <div class="component-info col-md-8">
+                  <div class="component-title">
+                    <%= lib.title %><br>
+                  </div><br>
+                  <% if (lib.description) { %>
+                    <%- lib.description %><br>
+                    <br>
+                  <% } %>
+                  <% if (lib.repo) { %>
+                    <strong>Repo:</strong> <a href="<%= Object.values(lib.repo)[0] %>"><%= Object.keys(lib.repo)[0] %></a><br>
+                  <% } %>
+                  <% if (lib.issues) { %>
+                    <strong>Issues:</strong> <a href="<%= Object.values(lib.issues)[0] %>"><%= Object.keys(lib.issues)[0] %></a><br>
+                  <% } %>
+                  <% if (lib.releases) { %>
+                    <strong>Releases:</strong> <a href="<%= Object.values(lib.releases)[0] %>"><%= Object.keys(lib.releases)[0] %></a><br>
+                  <% } %>
+                  <% if (lib.packages) { %>
+                    <strong>Packages:</strong> <a href="<%= Object.values(lib.packages)[0] %>"><%= Object.keys(lib.packages)[0] %></a><br>
+                  <% } %>
+                  <% if (lib.maintainers) { %>
+                    <strong>Maintainers:</strong> <%= lib.maintainers %></a><br>
+                  <% } %>
+                  <% if (lib.documentation) { %>
+                    <strong>Documentation:</strong>
+                    <ul>
+                      <% for (let doc of Object.keys(lib.documentation)) { %>
+                        <li><a href="<%= lib.documentation[doc] %>"><%= doc %></a></li>
+                      <% } %>
+                    </ul>
+                  <% } %>
                 </div>
               </div>
             </div>
-          <% } %>
+          </div>
         <% } %>
       <% } %>
     </div>

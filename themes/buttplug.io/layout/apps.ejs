@@ -2,54 +2,52 @@
   <div class="row">
     <div class="col-lg-1"></div>
     <div class="col-lg-10 col-md-12">
-      <% for (let type of Object.keys(site.data.ApplicationTypes)) { %>
-        <h2><%= site.data.ApplicationTypes[type] %></h2>
-        <% for (let app of site.data.Applications) { %>
-          <% if (app.type === type) { %>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="component row">
-                  <div class="col-md-4">
-                    <img src="/images/apps/<%= app.image  %>">
-                  </div>
-                  <div class="component-info col-md-8">
-                    <div class="component-title">
-                      <%= app.title %><br>
-                    </div><br>
-                    <% if (app.description) { %>
-                      <%- app.description %><br>
-                      <br>
-                    <% } %>
-                    <% if (app.platforms) { %>
-                      <strong>Platforms:</strong>
-                      <ul>
-                        <% for (let platform of app.platforms) { %>
-                          <li><%= platform %></li>
-                        <% } %>
-                      </ul>
-                    <% } %>
-                    <% if (app.website) { %>
-                      <strong>Website:</strong> <a href="<%= Object.values(app.website)[0] %>"><%= Object.keys(app.website)[0] %></a><br>
-                    <% } %>
-                    <% if (app.repo) { %>
-                      <strong>Repo:</strong> <a href="<%= Object.values(app.repo)[0] %>"><%= Object.keys(app.repo)[0] %></a><br>
-                    <% } %>
-                    <% if (app.issues) { %>
-                      <strong>Issues:</strong> <a href="<%= Object.values(app.issues)[0] %>"><%= Object.keys(app.issues)[0] %></a><br>
-                    <% } %>
-                    <% if (app.documentation) { %>
-                      <strong>Documentation:</strong>
-                      <ul>
-                        <% for (let doc of Object.keys(app.documentation)) { %>
-                          <li><a href="<%= app.documentation[doc] %>"><%= doc %></a></li>
-                        <% } %>
-                      </ul>
-                    <% } %>
-                  </div>
+      <% for (let type of Object.keys(site.data.Applications)) { %>
+        <h2><%= type %></h2>
+        <% for (let app of site.data.Applications[type]) { %>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="component row">
+                <div class="col-md-4">
+                  <img src="/images/apps/<%= app.image  %>">
+                </div>
+                <div class="component-info col-md-8">
+                  <div class="component-title">
+                    <%= app.title %><br>
+                  </div><br>
+                  <% if (app.description) { %>
+                    <%- app.description %><br>
+                    <br>
+                  <% } %>
+                  <% if (app.platforms) { %>
+                    <strong>Platforms:</strong>
+                    <ul>
+                      <% for (let platform of app.platforms) { %>
+                        <li><%= platform %></li>
+                      <% } %>
+                    </ul>
+                  <% } %>
+                  <% if (app.website) { %>
+                    <strong>Website:</strong> <a href="<%= Object.values(app.website)[0] %>"><%= Object.keys(app.website)[0] %></a><br>
+                  <% } %>
+                  <% if (app.repo) { %>
+                    <strong>Repo:</strong> <a href="<%= Object.values(app.repo)[0] %>"><%= Object.keys(app.repo)[0] %></a><br>
+                  <% } %>
+                  <% if (app.issues) { %>
+                    <strong>Issues:</strong> <a href="<%= Object.values(app.issues)[0] %>"><%= Object.keys(app.issues)[0] %></a><br>
+                  <% } %>
+                  <% if (app.documentation) { %>
+                    <strong>Documentation:</strong>
+                    <ul>
+                      <% for (let doc of Object.keys(app.documentation)) { %>
+                        <li><a href="<%= app.documentation[doc] %>"><%= doc %></a></li>
+                      <% } %>
+                    </ul>
+                  <% } %>
                 </div>
               </div>
             </div>
-          <% } %>
+          </div>
         <% } %>
       <% } %>
     </div>

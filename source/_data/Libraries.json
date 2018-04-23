@@ -1,66 +1,68 @@
-[
-  {
-    "type": "library",
-    "title": "Buttplug C#",
-    "image": "c-sharp.svg",
-    "repo": { "Github": "https://github.com/metafetish/buttplug-csharp"},
-    "issues": { "Github": "https://github.com/metafetish/buttplug-csharp/issues"},
-    "releases": { "Github": "https://github.com/metafetish/buttplug-csharp/releases"},
-    "packages": { "Nuget": "https://www.nuget.org/packages?q=buttplug" },
-    "documentation": { "API Documentation": "https://metafetish.github.io/buttplug-csharp"},
-    "maintainers": "Buttplug Core Dev Team",
-    "description": "Implementations of the Buttplug Client and Server in C#, using .Net Standard for the core libraries for portability."
-  },
-  {
-    "type": "library",
-    "title": "Buttplug JS/TS",
-    "image": "js.svg",
-    "repo": { "Github": "https://github.com/metafetish/buttplug-js"},
-    "issues": { "Github": "https://github.com/metafetish/buttplug-js/issues"},
-    "releases": { "Github": "https://github.com/metafetish/buttplug-js/releases"},
-    "packages": { "npm": "https://www.npmjs.org/package/buttplug" },
-    "documentation": { "API Documentation": "https://metafetish.github.io/buttplug-js",
-                       "Basic Glitch Tutorial": "https://glitch.com/edit/#!/how-to-buttplug?path=README.md:1:0"},
-    "maintainers": "Buttplug Core Dev Team",
-    "description": "Implementations of the Buttplug Client and Server in Typescript. NPM package is transpiled to Javascript. Also contains developer tools for prototyping applications without requiring hardware."
-  },
-  {
-    "type": "mobile",
-    "title": "Buttplug Android Server",
-    "image": "android.svg",
-    "repo": { "Github": "https://github.com/metafetish/buttplug-android"},
-    "issues": { "Github": "https://github.com/metafetish/buttplug-android/issues"},
-    "releases": { "Github": "https://github.com/metafetish/buttplug-android/releases"},
-    "maintainers": "Buttplug Community",
-    "description": "Buttplug Server library (native Java implementation) for the Android platform."
-  },
-  {
-    "type": "mobile",
-    "title": "Buttplug Xamarin",
-    "image": "xamarin.svg",
-    "repo": { "Github": "https://github.com/metafetish/buttplug-xamarin-apps"},
-    "issues": { "Github": "https://github.com/metafetish/buttplug-xamarin-apps/issues"},
-    "maintainers": "Buttplug Community",
-    "description": "Buttplug Server and Client library for Xamarin, based on Buttplug C#."
-  },
-  {
-    "type": "web",
-    "title": "Vue Material Buttplug Component",
-    "image": "vue.svg",
-    "repo": { "Github": "https://github.com/metafetish/vue-buttplug-material-component"},
-    "issues": { "Github": "https://github.com/metafetish/vue-buttplug-material-component/issues"},
-    "packages": { "npm": "https://www.npmjs.org/package/vue-buttplug-material-component"},
-    "maintainers": "Buttplug Core Dev Team",
-    "description": "Vue.js sidepanel UI for integrating Buttplug with Vue applications. Uses the <a href='https://vuematerial.io'>vue-material</a> library for UI theming."
-  },
-  {
-    "type": "games",
-    "title": "Buttplug Twine (Sugarcube) Macros",
-    "image": "twine.svg",
-    "repo": { "Github": "https://github.com/metafetish/buttplug-twine"},
-    "issues": { "Github": "https://github.com/metafetish/buttplug-twine/issues"},
-    "maintainers": "Buttplug Core Dev Team",
-    "documentation": { "Buttplug Twine Tutorial (In Twine!)": "https://metafetish.github.io/buttplug-twine" },
-    "description": "Set of <a href='http://www.motoslave.net/sugarcube/2/#documentation'>Sugarcube v2</a> macros for using the Buttplug API with Twine games. Used for writing the <a href='https://buttplug.world/tutorial'>Buttplug Tutorial</a>."
-  }
-]
+{
+  "Library": [
+    {
+      "title": "Buttplug C#",
+      "image": "c-sharp.svg",
+      "repo": { "Github": "https://github.com/metafetish/buttplug-csharp"},
+      "issues": { "Github": "https://github.com/metafetish/buttplug-csharp/issues"},
+      "releases": { "Github": "https://github.com/metafetish/buttplug-csharp/releases"},
+      "packages": { "Nuget": "https://www.nuget.org/packages?q=buttplug" },
+      "documentation": { "API Documentation": "https://metafetish.github.io/buttplug-csharp"},
+      "maintainers": "Buttplug Core Dev Team",
+      "description": "Implementations of the Buttplug Client and Server in C#, using .Net Standard for the core libraries for portability."
+    },
+    {
+      "title": "Buttplug JS/TS",
+      "image": "js.svg",
+      "repo": { "Github": "https://github.com/metafetish/buttplug-js"},
+      "issues": { "Github": "https://github.com/metafetish/buttplug-js/issues"},
+      "releases": { "Github": "https://github.com/metafetish/buttplug-js/releases"},
+      "packages": { "npm": "https://www.npmjs.org/package/buttplug" },
+      "documentation": { "API Documentation": "https://metafetish.github.io/buttplug-js",
+                         "Basic Glitch Tutorial": "https://glitch.com/edit/#!/how-to-buttplug?path=README.md:1:0"},
+      "maintainers": "Buttplug Core Dev Team",
+      "description": "Implementations of the Buttplug Client and Server in Typescript. NPM package is transpiled to Javascript. Also contains developer tools for prototyping applications without requiring hardware."
+    }
+  ],
+  "Mobile": [
+    {
+      "title": "Buttplug Android Server",
+      "image": "android.svg",
+      "repo": { "Github": "https://github.com/metafetish/buttplug-android"},
+      "issues": { "Github": "https://github.com/metafetish/buttplug-android/issues"},
+      "releases": { "Github": "https://github.com/metafetish/buttplug-android/releases"},
+      "maintainers": "Buttplug Community",
+      "description": "Buttplug Server library (native Java implementation) for the Android platform."
+    },
+    {
+      "title": "Buttplug Xamarin",
+      "image": "xamarin.svg",
+      "repo": { "Github": "https://github.com/metafetish/buttplug-xamarin-apps"},
+      "issues": { "Github": "https://github.com/metafetish/buttplug-xamarin-apps/issues"},
+      "maintainers": "Buttplug Community",
+      "description": "Buttplug Server and Client library for Xamarin, based on Buttplug C#."
+    }
+  ],
+  "Web": [
+    {
+      "title": "Vue Material Buttplug Component",
+      "image": "vue.svg",
+      "repo": { "Github": "https://github.com/metafetish/vue-buttplug-material-component"},
+      "issues": { "Github": "https://github.com/metafetish/vue-buttplug-material-component/issues"},
+      "packages": { "npm": "https://www.npmjs.org/package/vue-buttplug-material-component"},
+      "maintainers": "Buttplug Core Dev Team",
+      "description": "Vue.js sidepanel UI for integrating Buttplug with Vue applications. Uses the <a href='https://vuematerial.io'>vue-material</a> library for UI theming."
+    }
+  ],
+  "Games": [
+    {
+      "title": "Buttplug Twine (Sugarcube) Macros",
+      "image": "twine.svg",
+      "repo": { "Github": "https://github.com/metafetish/buttplug-twine"},
+      "issues": { "Github": "https://github.com/metafetish/buttplug-twine/issues"},
+      "maintainers": "Buttplug Core Dev Team",
+      "documentation": { "Buttplug Twine Tutorial (In Twine!)": "https://metafetish.github.io/buttplug-twine" },
+      "description": "Set of <a href='http://www.motoslave.net/sugarcube/2/#documentation'>Sugarcube v2</a> macros for using the Buttplug API with Twine games. Used for writing the <a href='https://buttplug.world/tutorial'>Buttplug Tutorial</a>."
+    }
+  ]
+}
