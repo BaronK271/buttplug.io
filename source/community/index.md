@@ -1,4 +1,4 @@
 ---
-title: community
+title: Buttplug Community
 layout: community
 ---

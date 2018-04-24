@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <%- open_graph({title: "Buttplug: Sex Toy Control Software", url: "https://buttplug.io", image: "https://io.buttplug.world/images/buttplug-logo-opengraph.png", site_name: "Buttplug: Sex Toy Control Software", twitter_id:"767452073185030144", twitter_id:"@buttplugio", twitter_creator:"@buttplugio"}); %>
-  <title>Buttplug Sex Toy Control Project</title>
+  <title><% if (page.title) { %><%= page.title %> | Buttplug<% } else { %>Buttplug Sex Toy Control Project<% } %></title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <%- css('css/style.css') %>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

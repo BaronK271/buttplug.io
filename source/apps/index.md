@@ -1,4 +1,4 @@
 ---
-title: apps
+title: Applications Using Buttplug
 layout: apps
 ---

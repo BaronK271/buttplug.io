@@ -1,5 +1,5 @@
 ---
-title: documentation
+title: Buttplug Project Documentation
 layout: slim-index
 ---
 
