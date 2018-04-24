@@ -1,0 +1,57 @@
+<!--
+    https://alahmadiq8.github.io/S3-Routing-Rules-Builder/
+
+hardware https://docs.buttplug.io/stpihkal/misc/buttplug-redirect.html
+hardware/ https://docs.buttplug.io/stpihkal/misc/buttplug-redirect.html
+hardware/index.html https://docs.buttplug.io/stpihkal/misc/buttplug-redirect.html
+about/ index.html 301
+software/ index.html 301
+about index.html 301
+software index.html 301
+about/index.html index.html 301
+software/index.html index.html 301
+-->
+<RoutingRules>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>hardware</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <Protocol>https</Protocol>
+      <HostName>docs.buttplug.io</HostName>
+      <ReplaceKeyWith>stpihkal/misc/buttplug-redirect.html</ReplaceKeyWith>
+    </Redirect>
+  </RoutingRule>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>about</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <Protocol>https</Protocol>
+      <HostName>buttplug.io</HostName>
+      <ReplaceKeyWith>index.html</ReplaceKeyWith>
+      <HttpRedirectCode>301</HttpRedirectCode>
+    </Redirect>
+  </RoutingRule>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>software</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <Protocol>https</Protocol>
+      <HostName>buttplug.io</HostName>
+      <ReplaceKeyWith>index.html</ReplaceKeyWith>
+      <HttpRedirectCode>301</HttpRedirectCode>
+    </Redirect>
+  </RoutingRule>
+  <RoutingRule>
+    <Condition>
+      <HttpErrorCodeReturnedEquals>404</HttpErrorCodeReturnedEquals>
+    </Condition>
+    <Redirect>
+      <Protocol>https</Protocol>
+      <HostName>buttplug.io</HostName>
+      <ReplaceKeyWith>404.html</ReplaceKeyWith>
+    </Redirect>
+  </RoutingRule>
+</RoutingRules>
