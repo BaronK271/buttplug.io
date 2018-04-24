@@ -79,3 +79,6 @@ deploy:
 # Make sure htaccess file is copied
 include:
   - .htaccess
+
+matomo_site_id: 5
+matomo_url: "apps.nonpolynomial.com/piwik"
