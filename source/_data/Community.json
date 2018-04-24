@@ -49,7 +49,7 @@
     "description": "If you want to keep up to date on the latest developments of Buttplug or Sex Tech in general, these are the places to watch.",
     "components": [
       {
-        "title": "Metafetish",
+        "title": "Metafetish Blog",
         "image": "metafetish.svg",
         "url": "https://metafetish.com",
         "description": "Metafetish is one of the longest running blogs on sex and technology. Founded in 2004, it follows news and development of sex tech and the culture surrounding it."
@@ -59,6 +59,12 @@
         "font": "fab fa-twitter",
         "url": "https://twitter.com/buttplugio",
         "description": "Our project twitter account announces releases, teases new features, and also shitposts, because what else do you do on twitter."
+      },
+      {
+        "title": "Buttpluggin' With qDot Youtube Channel",
+        "image": "youtube.svg",
+        "url": "https://youtube.buttplug.io",
+        "description": "The Buttpluggin' with qDot Youtube Channel has all sorts of tutorial and demo videos of software built using Buttplug."
       }
     ]
   }
