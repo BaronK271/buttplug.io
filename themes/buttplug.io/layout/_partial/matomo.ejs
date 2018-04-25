@@ -2,6 +2,9 @@
   <!-- Piwik -->
   <script type="text/javascript">
    var _paq = _paq || [];
+   <% if (page && page.is404) { %>
+     _paq.push(['setDocumentTitle',  '404/URL = ' +  encodeURIComponent(document.location.pathname+document.location.search) + '/From = ' + encodeURIComponent(document.referrer)]);
+   <% } %>
    _paq.push(["trackPageView"]);
    _paq.push(["enableLinkTracking"]);
    (function() {
