@@ -23,7 +23,7 @@ deploy:
   bucket: buttplug.io
   region: us-west-1
   acl: public_read
-  local_dir: buttplug.io
+  local_dir: public
   skip_cleanup: true
   on:
     repo: metafetish/buttplug.io
