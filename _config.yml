@@ -82,4 +82,4 @@ include:
   - .htaccess
 
 matomo_site_id: 5
-matomo_url: "apps.nonpolynomial.com/piwik"
+matomo_url: "apps.nonpolynomial.com/p"
