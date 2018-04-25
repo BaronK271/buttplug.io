@@ -9,7 +9,7 @@ layout: slim-index
 <div class="doc-list">
 {% endraw %}
 
-* [Buttplug Protocol Specification](https://docs.buttplug.io/buttplug-spec)
+* [Buttplug Protocol Specification](https://docs.buttplug.io/buttplug)
   * The Buttplug Protocol Specification contains the standard definitions of messages sent by Buttplug Clients and Servers.
 * [Buttplug Developer Guide](https://docs.buttplug.io/buttplug-developer-guide)
   * The Buttplug Developer Guide explains the reasoning and patterns used to develop the Buttplug Protocol, as well as outlining the architecture of the reference library implementations. It also contains ethics guidelines for developing with the library, and an overview of protocol message usage.
