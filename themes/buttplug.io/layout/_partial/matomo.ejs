@@ -1,5 +1,4 @@
 <% if (config.matomo_site_id && config.matomo_url) { %>
-  <!-- Piwik -->
   <script type="text/javascript">
    var _paq = _paq || [];
    <% if (page && page.is404) { %>
@@ -15,5 +14,4 @@
      g.defer=true; g.async=true; g.src=u+"js/"; s.parentNode.insertBefore(g,s);
    })();
   </script>
-  <!-- End Piwik Code -->
 <% } %>
