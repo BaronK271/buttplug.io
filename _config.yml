@@ -77,9 +77,9 @@ theme: buttplug.io
 deploy:
   type:
 
-# Make sure htaccess file is copied
+# Make sure netlify redirects file is copied
 include:
-  - .htaccess
+  - _redirects
 
 matomo_site_id: 5
 matomo_url: "apps.nonpolynomial.com/p"
