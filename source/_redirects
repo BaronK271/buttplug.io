@@ -1,7 +1,7 @@
 https://docs.buttplug.io https://buttplug.io/documentation
-https://docs.buttplug.io/stpihkal https://stpihkal.docs.buttplug.io
-https://docs.buttplug.io/buttplug https://buttplug-spec.docs.buttplug.io
-https://docs.buttplug.io/buttplug-developer-guide https://buttplug-developer-guide.docs.buttplug.io
+https://docs.buttplug.io/stpihkal/* https://stpihkal.docs.buttplug.io/:splat 301!
+https://docs.buttplug.io/buttplug/* https://buttplug-spec.docs.buttplug.io/:splat 301!
+https://docs.buttplug.io/buttplug-developer-guide/* https://buttplug-developer-guide.docs.buttplug.io/:splat 301!
 
 https://youtube.buttplug.io https://www.youtube.com/channel/UCKLmntfj3NmM2E3_LB3qs-w
 https://www.youtube.buttplug.io https://www.youtube.com/channel/UCKLmntfj3NmM2E3_LB3qs-w
