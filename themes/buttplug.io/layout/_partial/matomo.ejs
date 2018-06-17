@@ -1,17 +1,19 @@
 <% if (config.matomo_site_id && config.matomo_url) { %>
+  <!-- Matomo -->
   <script type="text/javascript">
    var _paq = _paq || [];
-   <% if (page && page.is404) { %>
-     _paq.push(['setDocumentTitle',  '404/URL = ' +  encodeURIComponent(document.location.pathname+document.location.search) + '/From = ' + encodeURIComponent(document.referrer)]);
-   <% } %>
-   _paq.push(["trackPageView"]);
-   _paq.push(["enableLinkTracking"]);
+   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+   _paq.push(["setCookieDomain", "*.buttplug.com"]);
+   _paq.push(['trackPageView']);
+   _paq.push(['enableLinkTracking']);
    (function() {
-     var u=(("https:" == document.location.protocol) ? "https://<%= config.matomo_url %>/" : "http://<%= config.matomo_url %>/");
-     _paq.push(["setTrackerUrl", u+"js/"]);
-     _paq.push(["setSiteId", "<%= config.matomo_site_id %>"]);
-     var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
-     g.defer=true; g.async=true; g.src=u+"js/"; s.parentNode.insertBefore(g,s);
+     var u="//matomo.nonpolynomial.com/";
+     _paq.push(['setTrackerUrl', u+'piwik.php']);
+     _paq.push(['setSiteId', '5']);
+     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
    })();
   </script>
+  <noscript><p><img src="//matomo.nonpolynomial.com/piwik.php?idsite=5&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+  <!-- End Matomo Code -->
 <% } %>
