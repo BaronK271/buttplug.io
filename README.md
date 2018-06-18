@@ -9,6 +9,17 @@
 This repo contains the https://buttplug.io website build files. It
 uses [Hexo](https://hexo.io) for static site management.
 
+## Building
+
+The package file contains scripts for building the website. Using
+yarn, you can just do a 
+
+    yarn build
+
+To build the website. To host a local version for testing, use 
+
+    yarn start
+
 ## Translations
 
 Translations are managed through [crowdin](https://crowdin.com). The
