@@ -32,11 +32,9 @@ support, please file an issue with a "translation" label.
 
 ## Support The Project
 
-If you find this project helpful, you
-can
-[support Metafetish projects via Patreon](http://patreon.com/qdot)!
-Every donation helps us afford more hardware to reverse, document, and
-write code for!
+If you find this project helpful, you can [support our projects via
+Patreon](http://patreon.com/qdot)! Every donation helps us afford more
+hardware to reverse, document, and write code for!
 
 ## License
 
