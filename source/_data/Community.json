@@ -5,7 +5,7 @@
       {
         "title": "Github",
         "image": "github.svg",
-        "url": "https://github.com/metafetish/buttplug",
+        "url": "https://github.com/buttplugio/buttplug",
         "description": "Github is where all of the code for open source Buttplug projects are stored. Our main repo (listed above) contains info on how to get started contributing code to Buttplug, as well as a list of related projects to help out with."
       },
       {
@@ -17,7 +17,7 @@
       {
         "title": "Trello",
         "image": "trello.svg",
-        "url": "https://github.com/metafetish/buttplug",
+        "url": "https://trello.com/b/yibB5b2g/buttplug-planning-development",
         "description": "Trello is used for project tracking, including larger project views, hardware reverse engineering efforts, and other things related to Buttplug that aren't specifically source code."
       },
       {
@@ -34,7 +34,7 @@
       {
         "title": "Discord",
         "image": "discord.svg",
-        "url": "https://discord.gg/t9g9RuD",
+        "url": "https://discord.buttplug.io",
         "description": "Discord is used for the main Buttplug chat server. There are channels for buttplug development, video game development, movie scripting, and more."
       },
       {

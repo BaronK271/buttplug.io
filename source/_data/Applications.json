@@ -5,9 +5,9 @@
       "image": "buttplug.svg",
       "platforms": ["Windows"],
       "website": { "buttplug.io": "https://buttplug.io"},
-      "repo": { "Github": "https://github.com/metafetish/buttplug-csharp"},
-      "issues": { "Github": "https://github.com/metafetish/buttplug-csharp/issues"},
-      "documentation": { "Buttplug tutorial": "https://buttplug.world/tutorial" },
+      "repo": { "Github": "https://github.com/buttplugio/buttplug-windows-suite"},
+      "issues": { "Github": "https://github.com/buttplugio/buttplug-windows-suite/issues"},
+      "documentation": { "Buttplug tutorial": "https://tutorial.buttplug.world" },
       "description": "Set of Windows applications, including the Buttplug Websocket Server (for using Buttplug applications on Windows), Game Vibration Router, and more."
     }
   ],
@@ -16,7 +16,7 @@
       "title": "Syncydink",
       "image": "syncydink.svg",
       "platforms": ["Web"],
-      "website": { "Syncydink on buttplug.world": "https://buttplug.world/syncydink"},
+      "website": { "Syncydink on buttplug.world": "https://syncydink.buttplug.world"},
       "repo": { "Github": "https://github.com/metafetish/syncydink"},
       "issues": { "Github": "https://github.com/metafetish/syncydink/issues"},
       "description": "Open source, web-based movie player with toy/hardware sync capabilities."
