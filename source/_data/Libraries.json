@@ -7,6 +7,9 @@
       "issues": { "Github": "https://github.com/buttplugio/buttplug-csharp/issues"},
       "releases": { "Github": "https://github.com/buttplugio/buttplug-csharp/releases"},
       "packages": { "Nuget": "https://www.nuget.org/packages?q=buttplug" },
+      "documentation": {
+        "Buttplug Developer Guide": "https://buttplug-developer-guide.docs.buttplug.io"
+      },
       "maintainers": "Buttplug Core Dev Team",
       "description": "Implementations of the Buttplug Client and Server in C#, using .Net Standard for the core libraries for portability."
     },
@@ -17,8 +20,10 @@
       "issues": { "Github": "https://github.com/buttplugio/buttplug-js/issues"},
       "releases": { "Github": "https://github.com/buttplugio/buttplug-js/releases"},
       "packages": { "npm": "https://www.npmjs.org/package/buttplug" },
-      "documentation": { "API Documentation": "https://buttplugio.github.io/buttplug-js",
-                         "Basic Glitch Tutorial": "https://glitch.com/edit/#!/how-to-buttplug?path=README.md:1:0"},
+      "documentation": {
+        "Buttplug Developer Guide": "https://buttplug-developer-guide.docs.buttplug.io",
+        "API Documentation": "https://buttplug-js.docs.buttplug.io/",
+        "Basic Glitch Tutorial": "https://glitch.com/edit/#!/how-to-buttplug?path=README.md:1:0"},
       "maintainers": "Buttplug Core Dev Team",
       "description": "Implementations of the Buttplug Client and Server in Typescript. NPM package is transpiled to Javascript. Also contains developer tools for prototyping applications without requiring hardware."
     }
