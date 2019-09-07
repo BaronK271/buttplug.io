@@ -26,6 +26,20 @@
         "Basic Glitch Tutorial": "https://glitch.com/edit/#!/how-to-buttplug?path=README.md:1:0"},
       "maintainers": "Buttplug Core Dev Team",
       "description": "Implementations of the Buttplug Client and Server in Typescript. NPM package is transpiled to Javascript. Also contains developer tools for prototyping applications without requiring hardware."
+    },
+    {
+      "title": "Buttplug Python",
+      "image": "python.svg",
+      "repo": { "Github": "https://github.com/buttplugio/buttplug-py"},
+      "issues": { "Github": "https://github.com/buttplugio/buttplug-py/issues"},
+      "releases": { "Github": "https://github.com/buttplugio/buttplug-py/releases"},
+      "packages": { "npm": "https://www.pypi.org/project/buttplug" },
+      "documentation": {
+        "Buttplug Developer Guide": "https://buttplug-developer-guide.docs.buttplug.io",
+        "API Documentation": "https://buttplug-py.docs.buttplug.io/"
+      },
+      "maintainers": "Buttplug Core Dev Team",
+      "description": "Implementations of the Buttplug Client for Python >= 3.7."
     }
   ],
   "Mobile": [
