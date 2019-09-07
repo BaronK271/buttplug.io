@@ -25,7 +25,7 @@
         "API Documentation": "https://buttplug-js.docs.buttplug.io/",
         "Basic Glitch Tutorial": "https://glitch.com/edit/#!/how-to-buttplug?path=README.md:1:0"},
       "maintainers": "Buttplug Core Dev Team",
-      "description": "Implementations of the Buttplug Client and Server in Typescript. NPM package is transpiled to Javascript. Also contains developer tools for prototyping applications without requiring hardware."
+      "description": "Implementations of the Buttplug Client and Server in Typescript. NPM package is also transpiled to Javascript (ES 6)."
     },
     {
       "title": "Buttplug Python",
@@ -50,7 +50,7 @@
       "issues": { "Github": "https://github.com/buttplugio/vue-buttplug-material-component/issues"},
       "packages": { "npm": "https://www.npmjs.org/package/vue-buttplug-material-component"},
       "maintainers": "Buttplug Core Dev Team",
-      "description": "Vue.js sidepanel UI for integrating Buttplug with Vue applications. Uses the <a href='https://vuematerial.io'>vue-material</a> library for UI theming."
+      "description": "Vue.js sidepanel UI for integrating Buttplug with Vue applications. Uses the <a href='https://vuetifyjs.com'>vuetify</a> library for UI theming."
     }
   ],
   "Games": [
