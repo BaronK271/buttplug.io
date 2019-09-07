@@ -1,14 +1,23 @@
 {
   "Utility": [
     {
-      "title": "Buttplug App Suite",
-      "image": "buttplug.svg",
+      "title": "Intiface Desktop",
+      "image": "intiface-desktop.png",
+      "platforms": ["Windows", "Mac", "Linux"],
+      "website": { "Intiface Desktop": "https://intiface.com/desktop"},
+      "repo": { "Github": "https://github.com/intiface/intiface-desktop"},
+      "issues": { "Github": "https://github.com/intiface/intiface-desktop/issues"},
+      "documentation": { "Intiface Tutorial": "https://tutorial.buttplug.world" },
+      "description": "Central server application for using sex toys with the applications listed below. Replaces the old 'Buttplug Server' program."
+    },
+    {
+      "title": "Intiface Game Haptics Router",
+      "image": "intiface-ghr.png",
       "platforms": ["Windows"],
-      "website": { "buttplug.io": "https://buttplug.io"},
-      "repo": { "Github": "https://github.com/buttplugio/buttplug-windows-suite"},
-      "issues": { "Github": "https://github.com/buttplugio/buttplug-windows-suite/issues"},
-      "documentation": { "Buttplug tutorial": "https://tutorial.buttplug.world" },
-      "description": "Set of Windows applications, including the Buttplug Websocket Server (for using Buttplug applications on Windows), Game Vibration Router, and more."
+      "website": { "buttplug.io": "https://intiface.com/ghr"},
+      "repo": { "Github": "https://github.com/intiface/intiface-game-haptics-router"},
+      "issues": { "Github": "https://github.com/intiface/intiface-game-haptics-router/issues"},
+      "description": "Application that reroutes gamepad and VR Controller rumble to sex toys supported by Buttplug."
     }
   ],
   "Video Players and Encoders": [
