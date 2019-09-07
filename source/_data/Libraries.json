@@ -11,7 +11,7 @@
         "Buttplug Developer Guide": "https://buttplug-developer-guide.docs.buttplug.io"
       },
       "maintainers": "Buttplug Core Dev Team",
-      "description": "Implementations of the Buttplug Client and Server in C#, using .Net Standard for the core libraries for portability."
+      "description": "Implementations of the Buttplug Client and Server in C#, using .Net Standard for the core libraries for portability. Also has compatibility for Bluetooth Devices on Xamarin."
     },
     {
       "title": "Buttplug JS/TS",
@@ -40,25 +40,6 @@
       },
       "maintainers": "Buttplug Core Dev Team",
       "description": "Implementations of the Buttplug Client for Python >= 3.7."
-    }
-  ],
-  "Mobile": [
-    {
-      "title": "Buttplug Android Server",
-      "image": "android.svg",
-      "repo": { "Github": "https://github.com/buttplugio/buttplug-android"},
-      "issues": { "Github": "https://github.com/buttplugio/buttplug-android/issues"},
-      "releases": { "Github": "https://github.com/buttplugio/buttplug-android/releases"},
-      "maintainers": "Buttplug Community",
-      "description": "Buttplug Server library (native Java implementation) for the Android platform."
-    },
-    {
-      "title": "Buttplug Xamarin",
-      "image": "xamarin.svg",
-      "repo": { "Github": "https://github.com/buttplugio/buttplug-xamarin-apps"},
-      "issues": { "Github": "https://github.com/buttplugio/buttplug-xamarin-apps/issues"},
-      "maintainers": "Buttplug Community",
-      "description": "Buttplug Server and Client library for Xamarin, based on Buttplug C#."
     }
   ],
   "Web": [
