@@ -9,15 +9,6 @@
       "issues": { "Github": "https://github.com/intiface/intiface-desktop/issues"},
       "documentation": { "Intiface Tutorial": "https://tutorial.buttplug.world" },
       "description": "Central server application for using sex toys with the applications listed below. Replaces the old 'Buttplug Server' program."
-    },
-    {
-      "title": "Intiface Game Haptics Router",
-      "image": "intiface-ghr.png",
-      "platforms": ["Windows"],
-      "website": { "buttplug.io": "https://intiface.com/ghr"},
-      "repo": { "Github": "https://github.com/intiface/intiface-game-haptics-router"},
-      "issues": { "Github": "https://github.com/intiface/intiface-game-haptics-router/issues"},
-      "description": "Application that reroutes gamepad and VR Controller rumble to sex toys supported by Buttplug."
     }
   ],
   "Video Players and Encoders": [
@@ -51,11 +42,35 @@
   ],
   "Games": [
     {
+      "title": "Intiface Game Haptics Router",
+      "image": "intiface-ghr.png",
+      "platforms": ["Windows"],
+      "website": { "Intiface Gamepad Haptics Router": "https://intiface.com/ghr"},
+      "repo": { "Github": "https://github.com/intiface/intiface-game-haptics-router"},
+      "issues": { "Github": "https://github.com/intiface/intiface-game-haptics-router/issues"},
+      "description": "Application that reroutes gamepad and VR Controller rumble to sex toys supported by Buttplug."
+    },
+    {
       "title": "Caveman BIOS Teaches Erotic Typing",
       "image": "cavemanbios.png",
       "platforms": ["Windows"],
       "website": { "itch.io": "https://curiousjp.itch.io/caveman-bios-teaches-erotic-typing"},
       "description": "Typing instruction game with Buttplug control features."
+    },
+    {
+      "title": "VAMLaunch",
+      "image": "vamlogo.jpg",
+      "platforms": ["Windows"],
+      "website": { "Github": "https://github.com/ZengineerVAM/VAMLaunch"},
+      "description": "Buttplug Plug-in for the VirtAMate VR Sex Sandbox System"
+    },
+    {
+      "title": "Virtual Romance Club",
+      "image": "viroclub.jpg",
+      "platforms": ["Windows"],
+      "website": { "viro.club": "https://viro.club"},
+      "description": "VR Game/Interactive Environment that uses Buttplug for hardware access."
     }
+
   ]
 }
