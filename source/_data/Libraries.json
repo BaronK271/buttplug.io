@@ -33,7 +33,7 @@
       "repo": { "Github": "https://github.com/buttplugio/buttplug-py"},
       "issues": { "Github": "https://github.com/buttplugio/buttplug-py/issues"},
       "releases": { "Github": "https://github.com/buttplugio/buttplug-py/releases"},
-      "packages": { "npm": "https://www.pypi.org/project/buttplug" },
+      "packages": { "pypi": "https://www.pypi.org/project/buttplug" },
       "documentation": {
         "Buttplug Developer Guide": "https://buttplug-developer-guide.docs.buttplug.io",
         "API Documentation": "https://buttplug-py.docs.buttplug.io/"
